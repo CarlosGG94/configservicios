@@ -6,5 +6,11 @@ spring:
   jpa:
     properties:
       hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.15:8761/eureka
+  instance:
+    instance-id: instancia1
 server: 
   port: 8080
