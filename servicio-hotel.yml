@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://host.docker.internal/cursoSpring
+    url: jdbc:postgresql://192.168.1.15/cursoSpring
     username: postgres
     password: gocrowd
   jpa:
