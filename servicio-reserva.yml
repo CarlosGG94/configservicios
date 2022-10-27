@@ -12,6 +12,7 @@ eureka:
       defaultZone: http://eureka:8761/eureka
   instance:
     instanceId: instancia-reserva
+    hostName: http://172.21.32.1
 server: 
   port: 8082
 hotel:
