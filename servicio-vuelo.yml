@@ -12,6 +12,5 @@ eureka:
       defaultZone: http://eureka:8761/eureka
   instance:
     instanceId: instancia-vuelo
-    hostName: 172.21.32.1
 server: 
   port: 8081
